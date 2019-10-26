@@ -116,21 +116,21 @@ button:focus {
 }
 
 .sources {
+    text-align: center;
     margin-top: 50px;
     background-color: #941d00;
-    height: 50px;
+    height: 60px;
     padding-top: 10px;
-    text-align: center;
+    font-size: 10px;
 }
 
-.ref {
-    width: 10%;
+.sources img {
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.nyt {
-    width: 30%
+.sources span {
+    padding-left: 20px;
 }
 
 svg {
