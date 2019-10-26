@@ -1,10 +1,10 @@
 {
-  "name": "Cabiling_Syrrel_interactive",
+  "name": "cabiling_syrrel_interactive",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
