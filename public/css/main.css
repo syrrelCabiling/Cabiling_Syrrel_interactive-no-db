@@ -96,6 +96,7 @@ button {
 	text-decoration:none;
     text-shadow:0px -1px 0px #7a2a1d;
     
+    
 }
 
 button:hover {
@@ -174,7 +175,10 @@ svg {
         font-size: 20px;
 
     }
-
+    .sources img {
+        text-align: center;
+        
+    }
 
     
  }
