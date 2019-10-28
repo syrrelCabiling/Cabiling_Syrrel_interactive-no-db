@@ -186,6 +186,6 @@ svg {
 
  @media (min-width: 992px) { 
      iframe {
-         witdh: 400px;
+         width: 400px;
      }
   }

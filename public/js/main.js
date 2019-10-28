@@ -43,47 +43,11 @@ import veiData from "/js/modules/DataObjects.js";
         indexButton.addEventListener('click', showVeiData);
         
         //add the button to the top of the section on our web page
+        
         document.querySelector("#section1").appendChild(indexButton);
+        
     }
 
     debugger;
 })();
 
-/*(() => {
-    console.log('Work it!');
-
-    // grab the bio container and get ready to populate its contents
-    const displayArea = document.querySelector("#information").children;
-
-
-    function showInfo() {
-        document.getElementById("information").innerHTML = showVeiData();
-    }
-
-    function showVeiData() {
-        let currentData = this.textContent;
-
-        veiInfo[0].textContent = VeiIndex[currentData].classification;
-        veiInfo[1].textContent = VeiIndex[currentData].volcano;
-        veiInfo[2].textContent = VeiIndex[currentData].tephra;
-        veiInfo[3].textContent = VeiIndex[currentData].howOften;
-        veiInfo[4].textContent = VeiIndex[currentData].deathToll;
-        veiInfo[5].textContent = VeiIndex[currentData].otherDamages;
-        veiInfo[6].src = `/images/${VeiIndex[currentData].image}`;
-    }
-
-    for (let index in veiIndex) {
-        console.log(index);
-
-        let indexButton = document.createElement('button');
-
-        // set the button's label (text) in the prof name (current entry in the object)
-       indexButton.textContent = index;
-
-        //add some some event in the handling so that when we click one of our new buttons, we can show the right data
-        indexButton.addEventListener('click', showVeiData);
-        
-        //add the button to the top of the section on our web page
-       document.querySelector("#information").appendChild(indexButton);
-    }
-})();*/
